@@ -1,0 +1,127 @@
+/* Estrutura do site */
+
+* {
+    margin: 0.01em;
+    padding: 0.04em;
+} 
+
+body {
+    font-family: sans-serif;
+    background: url(../Imagens/fundo-teste2.png) repeat-x;
+}
+
+#container {
+    width: 750px;
+    margin:  auto;
+    
+}
+
+#topo {
+    padding-top: 1px;
+}
+
+.logo {
+    height: 160px;
+} 
+
+a:link, a:visited{
+    color: rgb(238, 234, 234);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul li {
+    float: left;
+}
+
+#topo ul a {
+    font-size: 0.95em;
+    display: block;
+    padding: 0.5em 1em;
+    line-height: 1;
+   text-decoration: none;
+    color: rgb(0, 0, 0);
+    background: url(//Imagens/divisor.png) no-repeat left center;
+}
+
+#topo ul a {
+    background: rgb(241, 238, 238);
+}
+
+#topo ul a:hover {
+    background-color: rgb(134, 132, 132);
+}
+
+body.home #navegacao a#home,
+body.institucional #navegacao a#institucional,
+body.pesquisa #navegacao a#pesquisa,
+body.diplomados #navegacao a#diplomados
+{
+    color: white;
+    background: rgb(66, 1, 1);
+    cursor: text;
+}
+
+#conteudo {
+    margin-top: 60px;
+}
+
+#primario {
+    width: 800px;
+    padding: 45px;
+    background: rgb(245, 244, 244);
+    
+}
+
+#primario p {
+    margin-top: 20px;
+}
+
+h2 {
+    margin: 15px 0;
+}
+
+h3 {
+    margin: 20px 0;
+}
+
+h4 {
+    margin: 15px 0;
+}
+
+.caixa-diplomados {
+    margin-top: 30px;
+    padding: 30px 40px;
+    text-align: center;
+}
+
+.caixa-diplomados h3 {
+    color: rgb(41, 41, 139);
+    margin-top: 30px;
+}
+
+.imagem-secundaria {
+    margin-top: 50px;
+}
+
+.caixa-contato {
+    margin: 20px 0;
+}
+
+
+
+#rodape {
+    background: rgb(219, 216, 216);
+    height: 34px;
+    margin-top: 50px;
+}
+
+#rodape p {
+    padding: 5px 40px;
+    font-size: 13px;
+    float: left;
+}
